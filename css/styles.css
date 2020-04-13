@@ -1,0 +1,162 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/*Sections*/
+
+.colored-section{
+    background-color:#ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/*Containers*/
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/*Heading*/
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 7% 15%;
+}
+
+.btn{
+    margin: 5% 3% auto auto;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    padding: 0 0 75px;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size:1.2rem;
+    padding: 0 18px;
+}
+
+/*Dog Image*/
+
+.hot-dog{
+    height: 400px;
+}
+
+.hot-img{
+    width:70%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+
+}
+
+/*Features Section*/
+
+#features{
+    position: relative;
+
+}
+
+.feature-box{
+    color: #8f8f8f;
+    padding: 5%;
+}
+
+.ft-title{
+    color: black;
+    font-weight:900;
+    font-size: 1.5rem;
+}
+
+.fas{
+    font-size: 3.5rem;
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+    background-color: #ef8172;
+    position: relative;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 50%;
+    margin: 5% auto;
+}
+
+/*Press Section*/
+
+#press{
+    background-color: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 100px;
+}
+
+/*pricing section*/
+
+#pricing{
+    padding: 100px;
+}
+
+#pricing h3, #pricing h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.card-holder{
+    padding: 2%
+}
+
+@media(max-width:991px){
+    
+    .hot-img{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 5%
+    }
+    
+    #title{
+        text-align: center;
+    }
+    
+}
+
+/*Footer Section*/
+
+.fa-envelope{
+    font-size: 1rem;
+    color: black;
+    padding: 0;
+}
+
+.social-icon{
+    margin: 3% 0.5% 1.5%;
+}
