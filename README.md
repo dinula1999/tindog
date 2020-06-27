@@ -1,2 +1,2 @@
-# tindog
-tinder clone for dogs
+# tinder clone (NOT a SERIOUS project)
+tinder clone for dogs :)
